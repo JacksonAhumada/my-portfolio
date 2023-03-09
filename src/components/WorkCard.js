@@ -6,6 +6,7 @@ const WorkCard = (props) => {
   return (
     <div className="project-card">
       <img src={props.imgsrc} alt="project" />
+      <div className="pro-content">
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
         <p>{props.text}</p>
@@ -21,7 +22,8 @@ const WorkCard = (props) => {
           >
             Source
           </a>
-        </div>
+          </div>
+          </div>
       </div>
     </div>
   );

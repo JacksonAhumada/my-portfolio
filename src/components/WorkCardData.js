@@ -1,16 +1,16 @@
 import pro1 from "../assets/project1.png";
-import pro2 from "../assets/project2.png";
-import pro3 from "../assets/project3.png";
+import pro2 from "../assets/project2.jpg";
+import pro3 from "../assets/project3.jpg";
 
 const WorkCardData = [
   {
     imgsrc: pro1,
-    title: "My next big project",
-    text: "This will be the description of my next project in the works. Coming soon!!",
+    title: "Clubhouse Caddie",
+    text: "Experience golfing like never before with our app that brings the clubhouse to you! Order mouth-watering food, ice-cold drinks, and essential golf supplies from the comfort of your cart.",
     //put url of the project here.
-    view: "project.url",
+    view: "https://sleepy-lake-08417.herokuapp.com/",
     //github url for project
-    source: "github.url",
+    source: "https://github.com/mmuugii/Beverage-Buddy",
   },
   {
     imgsrc: pro2,
@@ -24,7 +24,7 @@ const WorkCardData = [
   {
     imgsrc: pro3,
     title: "Cherry Picked",
-    text: "A simpler way to find meal and drink recipes.",
+    text: "Cherry Picked is a recipe search engine that helps users discover food and drink recipes based on the ingredients they already have in their fridge.",
     //put url of the project here.
     view: "https://kelvinsinferno.github.io/Cherry-Picked/",
     //github url for project
