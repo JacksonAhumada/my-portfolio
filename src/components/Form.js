@@ -2,6 +2,12 @@ import "./FormStyles.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+
+
+const serviceId = "service_3dvzs5d";
+const templateId = "template_1ab7waq";
+const userId = "eIok2ul4E7xasCthH";
+
 const Form = () => {
   const form = useRef();
 
@@ -12,23 +18,16 @@ const Form = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_3dvzs5d",
-        "template_1ab7waq",
-        form.current,
-        "eIok2ul4E7xasCthH"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-          clearForm();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, form.current, userId).then(
+      (result) => {
+        console.log(result.text);
+        console.log("message sent");
+        clearForm();
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
   };
 
   return (
@@ -46,7 +45,9 @@ const Form = () => {
           rows="6"
           placeholder="Type your message here"
         />
-        <button type="submit" value="Send" className="btn">Submit</button>
+        <button type="submit" value="Send" className="btn">
+          Submit
+        </button>
       </form>
     </div>
   );
