@@ -24,6 +24,7 @@ const Footer = () => {
               719-651-2005
             </h4>
           </div>
+          <a href="mailto:jacksonahumada@gmail.com">
           <div className="email">
             <h4>
               <FaMailBulk
@@ -31,8 +32,10 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
               jacksonahumada@gmail.com{" "}
-            </h4>
+              </h4>
           </div>
+          </a>
+          
         </div>
               <div className="right">
                   <h4>About Me</h4>
