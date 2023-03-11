@@ -33,27 +33,28 @@ const Footer = () => {
               />
               jacksonahumada@gmail.com{" "}
               </h4>
+              <div className="social">
+              <a href="https://www.linkedin.com/in/jackson-ahumada-aa341825a/">
+                   <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://github.com/JacksonAhumada">
+                  <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+              </a>
+                </div>
+                  
           </div>
           </a>
           
         </div>
               <div className="right">
                   <h4>About Me</h4>
-                  <p>Something about me</p>
-                  <div className="social">
-                  <FaFacebook
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-                      />
-                   <FaLinkedin
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-                      />
-                  <FaGithub
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-                />
-                </div>
+                  <p>Greetings! I am a full-stack developer based in Colorado Springs, with a strong passion for crafting user-friendly designs and tackling complex problems. I take pride in delivering top-notch solutions that exceed client expectations with an emphasis in front-end development. I look forward to collaborating with you and bringing your next project to life.</p>
                   
         </div>
       </div>

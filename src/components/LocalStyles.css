@@ -1,0 +1,29 @@
+.imgHeader{
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    overflow-x: hidden;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.container{
+    width: 50%;
+    padding: 1.2rem 1rem;
+    background-color: #1a1919;
+    margin-top: 20px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.topic {
+    padding: 30px 50px ;
+}
