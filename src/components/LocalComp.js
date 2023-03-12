@@ -1,15 +1,14 @@
 import "./LocalStyles.css";
 
-import React, { useState } from "react";
+import React from "react";
 
-import { Link } from "react-router-dom";
 import LocalImg from "../assets/project2.png";
 
 const LocalComp = () => {
   return (
     <div className="content">
       <h1>The Local</h1>
-        <img className="imgHeader" src={LocalImg}></img>
+        <img className="imgHeader" src={LocalImg} alt="The Local screenshot"></img>
       <div className="container">
         <h1>Overview:</h1>
         <p className="topic">

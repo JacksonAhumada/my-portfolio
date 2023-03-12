@@ -1,15 +1,14 @@
 import "./LocalStyles.css";
 
-import React, { useState } from "react";
+import React from "react";
 
-import { Link } from "react-router-dom";
 import CaddieImg from "../assets/project1.png";
 
 const CaddieComp = () => {
   return (
     <div className="content">
       <h1>The Local</h1>
-        <img className="imgHeader" src={CaddieImg}></img>
+        <img className="imgHeader" src={CaddieImg} alt="Caddie img"></img>
       <div className="container">
         <h1>Overview:</h1>
         <p className="topic">
