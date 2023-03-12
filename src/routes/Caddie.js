@@ -2,18 +2,18 @@ import React from "react";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import LocalComp from "../components/LocalComp";
+import CaddieComp from "../components/CaddieComp";
 
-const Local = () => {
+const Caddie = () => {
     return (
         <div>
             <Navbar />
             
-            <LocalComp />
+            <CaddieComp />
 
             <Footer />
         </div>
     );
 };
 
-export default Local;
+export default Caddie;

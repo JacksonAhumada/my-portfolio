@@ -3,6 +3,9 @@ import "./WorkCardStyles.css";
 import React from "react";
 
 const WorkCard = (props) => {
+  const handleViewClick = () => {
+    window.scrollTo(0, 0);
+  }
   return (
     <div className="project-card">
       <img src={props.imgsrc} alt="project" />
@@ -11,9 +14,8 @@ const WorkCard = (props) => {
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <a href={props.view} target="_blank" className="btn" rel="noreferrer">
-            View
-          </a>
+            {React.cloneElement(props.view, { onClick: handleViewClick })}
+            
           <a
             href={props.source}
             target="_blank"

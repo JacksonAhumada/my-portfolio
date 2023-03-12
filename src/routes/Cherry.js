@@ -2,18 +2,18 @@ import React from "react";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import LocalComp from "../components/LocalComp";
+import CherryComp from "../components/CherryComp";
 
-const Local = () => {
+const Cherry = () => {
     return (
         <div>
             <Navbar />
             
-            <LocalComp />
+            <CherryComp />
 
             <Footer />
         </div>
     );
 };
 
-export default Local;
+export default Cherry;
