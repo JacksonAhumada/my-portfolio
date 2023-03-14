@@ -14,7 +14,7 @@ const LocalComp = () => {
         src={LocalImg}
         alt="The Local screenshot"
       ></img>
-        <h1 className="section">Overview:</h1>
+        <h1 className="section">Overview</h1>
         <p className="topic">
           The Local is a carefully curated database of the best restaurants,
           attractions, and entertainment options in any given city, created by
@@ -27,7 +27,7 @@ const LocalComp = () => {
           The Local, to help solve the common problem of finding authentic and
           memorable experiences in a new city.
         </p>
-        <h1 className="section">Objective:</h1>
+        <h1 className="section">Objective</h1>
         <p className="topic">
           The objective of The Local is to provide travelers with a
           comprehensive and carefully curated database of the best local
@@ -38,8 +38,17 @@ const LocalComp = () => {
           memorable experiences in a new city, making travel more enjoyable and
           rewarding for everyone.
         </p>
-        <h1 className="section">Role:</h1>
+        <h1 className="section">Role</h1>
         <p className="topic">Front End Developer </p>
+        <h1 className="section">Skills</h1>
+        <ul className="topic">
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>UX/UI Design</li>
+
+        </ul>
       </div>
     </div>
   );

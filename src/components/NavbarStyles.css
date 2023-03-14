@@ -28,6 +28,24 @@
   display: none;
 }
 
+@media screen and (max-width: 740px){
+  .portfolio {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 740px){
+  .header-bg {
+    background-color: rgb(0, 0, 0, 0.85);
+
+  }
+  .header {
+    background-color: rgb(0, 0, 0, 0.85);
+    height: 70px;
+
+  }
+}
+
 @media screen and (max-width: 1040px) {
   .nav-menu {
     flex-direction: column;
