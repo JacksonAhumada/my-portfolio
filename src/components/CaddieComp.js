@@ -10,7 +10,7 @@ const CaddieComp = () => {
       <div className="container">
       <h1 className="title">Clubhouse Caddie</h1>
       <img className="imgHeader" src={CaddieImg} alt="Caddie img"></img>
-        <h1 className="section">Overview:</h1>
+        <h1 className="section">Overview</h1>
         <p className="topic">
           The golfing experience is being revolutionized with the introduction
           of a new app that brings the clubhouse to you. With this app, golfers
@@ -23,7 +23,7 @@ const CaddieComp = () => {
           golfing experience and provide golfers with a more convenient and
           enjoyable way to play the game.
         </p>
-        <h1 className="section">Objective:</h1>
+        <h1 className="section">Objective</h1>
         <p className="topic">
           The objective of Clubhouse Caddie is to enhance the golfing experience
           by providing a convenient and enjoyable way for golfers to order
@@ -31,8 +31,10 @@ const CaddieComp = () => {
           the comfort of their cart, bringing the clubhouse to them and allowing
           them to focus more on their game.
         </p>
-        <h1 className="section">Role:</h1>
+        <h1 className="section">Role</h1>
         <p className="topic">Front End Developer</p>
+        <h1 className="section">Future Development</h1>
+        <p className="topic">As Clubhouse Caddie is currently in its design phase, the plan for the future is to develop a comprehensive client dashboard that enables the golf course staff to generate menus, handle and receive orders from the users on the course. Additionally, a tracking feature will be implemented to enable the clubhouse to track the precise location of the user on the course, ensuring accurate delivery. </p>
         <h1 className="section">Skills</h1>
         <ul className="topic">
           <li>CSS</li>

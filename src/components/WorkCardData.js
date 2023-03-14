@@ -16,7 +16,7 @@ const WorkCardData = [
   {
     imgsrc: pro2,
     title: "The Local",
-    text: "A database of curated lists of restaurants, attractions, and entertainment for a city created by travelers and locals.",
+    text: "The Local is a platform that provides curated lists of restaurants, attractions, and entertainment for a city. It is created by a collaborative effort between travelers and locals, ensuring authentic and up-to-date recommendations.",
     //put url of the project here.
     view: <Link to="/local" className="btn">View</Link>,
     //github url for project
