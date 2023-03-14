@@ -2,14 +2,15 @@
     background-size: cover;
     background-position: center;
     height: auto;
-    overflow-x: hidden;
-    max-width: 50%;
+    max-width: 80%;
     margin: 0 auto;
     padding-top: 15px;
+    justify-content: center;
+    display: block;
 }
 
 .container{
-    width: 50%;
+    width: 80%;
     padding: 1.2rem 1rem;
     background-color: #1a1919;
     margin-top: 20px;
@@ -24,6 +25,37 @@
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 740px){
+    .container{
+        font-size: 14px;
+        padding: 0%;
+    }
+}
+
 .topic {
     padding: 30px 50px ;
+}
+
+@media screen and (max-width: 740px){
+    .topic{
+        font-size: 16px;
+        padding: 2em;
+    }
+}
+
+.title {
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 740px){
+    .section{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+}
+p {
+    line-height: 1.8;
 }
