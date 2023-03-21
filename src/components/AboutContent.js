@@ -10,7 +10,7 @@ const AboutContent = () => {
     <div className="about">
       <div className="left">
         <h1>Who Am I</h1>
-        <p>I am a beginner frontend Developer</p>
+        <p>Greetings! I am a full-stack developer based in Colorado Springs, with a strong passion for crafting user-friendly designs and tackling complex problems. I take pride in delivering top-notch solutions that exceed client expectations with an emphasis in front-end development. I look forward to collaborating with you and bringing your next project to life.</p>
         <Link to="/contact">
           <button className="btn">contact</button>
         </Link>

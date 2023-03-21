@@ -40,6 +40,8 @@ const LocalComp = () => {
         </p>
         <h1 className="section">Role</h1>
         <p className="topic">Front End Developer </p>
+        <h1 className="section">Future Development</h1>
+        <p className="topic">The local is currently still in the design phase but in the future we hope to add the ability to share users curated list to another user. </p>
         <h1 className="section">Skills</h1>
         <ul className="topic">
           <li>CSS</li>

@@ -1,23 +1,27 @@
 .footer {
   width: 100%;
-  padding: 6rem 0;
+  padding: 2rem 0;
   background-color: rgb(19, 19, 0.8);
 }
 
-.footer-container {
-  max-width: 1140px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 40px;
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
 }
 
-.left {
+.nav li {
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.center {
   height: 100%;
   max-width: 100%;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  align-items: center;
 }
 
 .location {
@@ -37,17 +41,14 @@
   padding: 1rem;
 }
 
-.social {
-  margin-top: 1rem;
-}
-
 h4 {
   font-size: 1.2rem;
   padding-bottom: 0.7rem;
 }
 
-p {
+.center p {
   font-size: 1.2rem;
+  padding: 10px;
 }
 
 @media screen and (max-width: 640px) {
